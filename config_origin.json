@@ -1,0 +1,33 @@
+{
+  "node_id": 0,
+  "chain_id": 168,
+  "block_size": 0,
+  "block_interval": 0,
+  "tx_pool_size" : 100000,
+  "inject_speed" : 100000,
+  "storage_root_path": "./block_cooker_initial_db",
+  "drop_database" : false,
+  "input_dataset_path": "./dataset/23250000to23499999_InternalTransaction/23250000to23499999_InternalTransaction.csv",
+  "output_dataset_path": "./harvester_exp",
+  "cache_size": 33,
+  "node_mode": "leader",
+  "tx_generator_mode": "csv",
+  "peer_count": 0,
+  "proposer_address" :"/ip4/127.0.0.1/tcp/12131",
+  "p2p_sender_listen_address": "/ip4/0.0.0.0/tcp/12131",
+  "p2p_sender_id_file_path" : "./publisher_key",
+  "p2p_topic":"fwcyfyl",
+  "api_port": 56888,
+
+
+  "queue_size": 3600,
+  "snapshot_size": 7489,
+  "bloom_capacity": 1000000,
+  "bloom_false_positive_rate": 0.001,
+  "flush_block_interval": 50,
+  "exp_mode": "origin",
+  "exp_block_count": 11601,
+  "pollution_address_num": 7489,
+  "pollution_block_num": 100
+  
+}
