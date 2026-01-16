@@ -4,11 +4,10 @@
 
 ### 1. Extract Dataset
 
-The project requires a specific internal transaction dataset from XBlock-ETH project. Download and Extract the zip file:
+The project requires a specific internal transaction dataset from XBlock-ETH project. Download 23250000to23499999_InternalTransaction.zip at https://xblock.pro/xblock-eth.html and Extract the zip file:
 
 ```bash
 mkdir dataset
-wget https://zhengpeilin.com/download.php?file=23250000to23499999_InternalTransaction.zip -O dataset/23250000to23499999_InternalTransaction.zip
 unzip dataset/23250000to23499999_InternalTransaction.zip -d dataset/
 
 ```
